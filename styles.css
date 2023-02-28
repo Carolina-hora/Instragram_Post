@@ -16,8 +16,9 @@ body {
 
 .main {
     background: white;
-    margin-left: 33%;
-    margin-right: 33%;
+    width: 70vb;
+    margin: 50px auto;
+   
 }
 .header_title {
     background: white;
