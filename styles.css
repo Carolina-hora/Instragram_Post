@@ -1,0 +1,79 @@
+/*to remove in the end of the project
+* {
+    outline: 1px solid red;
+}
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background: white;
+    margin-left: 33%;
+    margin-right: 33%;
+}
+.header_title {
+    background: white;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+}
+
+p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+.header {
+    background: white;
+    display: flex;
+    margin: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.header:last-child {
+    margin-left: auto; /* this allows to send the three buttons(ellipsis vertical) icon the left margin!!*/
+    padding: 5px;
+}
+
+.post_icons {
+    background: white;
+    display: flex;
+    margin: 5px;
+}
+
+.icon {
+    padding: 5px;
+}
+.icon:last-child {
+    margin-left: auto; /* this allows to send the last icon the left margin!!*/
+    padding-right: 15px;
+}
+
+.caption, .liked_by {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    background: white;
+    margin: 10px;
+    padding: 5px;
+
+}
+.caption {
+    padding-bottom: 20px;
+}
+.image {
+    width: 100%;
+    background: white;
+}
